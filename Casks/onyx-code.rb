@@ -34,6 +34,7 @@ cask "onyx-code" do
     "~/Library/Caches/com.onyxcode.app",
     "~/Library/Caches/com.onyxcode.app.ShipIt",
     "~/Library/HTTPStorages/com.onyxcode.app",
+    "~/Library/Preferences/ByHost/com.onyxcode.app.ShipIt.*.plist",
     "~/Library/Preferences/com.onyxcode.app.plist",
     "~/Library/Saved Application State/com.onyxcode.app.savedState",
   ]
