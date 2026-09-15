@@ -5,8 +5,7 @@ cask "onyx-code" do
   sha256 arm:   "7882dae5167e93cabc6734bf4aa396c701284fcbdea25f1becd823a099bbf94a",
          intel: "91c3bdb91569f0080683345d3676a7c93e68f71392854bbe9fba395def3789ab"
 
-  url "https://github.com/onyxcode-app/onyxcode-releases/releases/download/v#{version}/OnyxCode-darwin-#{arch}.dmg",
-      verified: "github.com/onyxcode-app/onyxcode-releases/"
+  url "https://github.com/onyxcode-app/onyxcode-releases/releases/download/v#{version}/OnyxCode-darwin-#{arch}.dmg"
   name "Onyx Code"
   desc "Private-by-design AI code editor with local inference and air-gap mode"
   homepage "https://www.onyxcode.app/"
