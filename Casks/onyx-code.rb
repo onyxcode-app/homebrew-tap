@@ -1,9 +1,9 @@
 cask "onyx-code" do
   arch arm: "arm64", intel: "universal"
 
-  version "2.7.1"
-  sha256 arm:   "6a41dba34ef531f2c3140334a35aa72df115e9652e3b5c189822d31ca55a736a",
-         intel: "001779bfabe150287909b9fb82426a78a537bb5c95a1b250ede59172b4e620e8"
+  version "2.7.2"
+  sha256 arm:   "e9ae6b18b8811f9b7f36459f345ca89da0086fdbd30d2021702dab156be2a688",
+         intel: "edcf616596b1cba8e3dec7f267c95b0fad6c87abdd0155cc7f363938903114be"
 
   url "https://github.com/onyxcode-app/onyxcode-releases/releases/download/v#{version}/OnyxCode-darwin-#{arch}.dmg"
   name "Onyx Code"
